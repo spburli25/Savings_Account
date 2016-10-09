@@ -1,0 +1,23 @@
+[
+  {
+  "Product" : "Fixed Saver",
+  "Interest rate" : "2.20%",
+  "Minimum Deposit" : "£500",
+  "Interest Type": "Fixed"
+  },
+
+  {
+    "Product" : "Flex Saver",
+    "Interest rate" : "1.5%",
+    "Minimum Deposit" : "£0",
+    "Interest Type": "Tracker"
+  },
+
+  {
+    "Product" : "Offset Saver",
+    "Interest rate" : "1.8%",
+    "Minimum Deposit" : "£1000",
+    "Interest Type": "Fixed"
+  }
+
+]

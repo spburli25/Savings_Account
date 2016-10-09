@@ -1,0 +1,106 @@
+header {
+  font-family: "Lucida Grande",Arial, Helvetica, sans-serif;
+  font-size: 24px ;
+  font-weight: bold;
+  line-height: 36px;
+  background-color: #008c85;
+  color: #e4efee;
+  width: auto;
+  margin-bottom: 30px;
+  height: 50px;
+  padding: 10px 10px;
+
+}
+
+table, th, td {
+
+    margin:20px 0;
+    border:solid 1px #333;
+    padding:2px 4px;
+    width: auto;
+    font: 20px "Lucida Grande",Arial, Helvetica,sans-serif;
+    line-height: 36px;
+    color: #0c332f;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+th {
+    font: 20px "Lucida Grande",Arial, Helvetica,sans-serif;
+    font-weight:bold;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9fbd0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+nav {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  nav {
+    display:block;
+  }
+
+table {
+  border-collapse: collapse;
+}
+ th {
+   display: none;
+ }
+ 
+  tr {
+    border: 1px solid #ccc;
+    display: block;
+  }
+
+  td {
+    border: 1px solid;
+    position: relative;
+    text-align:center;
+    display:block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  td:nth-last-child(1){
+  border-bottom: none;
+  }
+
+  td:before {
+    top: 10px;
+    left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .collapsed {
+   display: none;
+ }
+
+  #right {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+  }
+
+  #left {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: left;
+  }
+
+  td:nth-of-type(2):before {content: 'Interest Rate: '; }
+  td:nth-of-type(3):before {content: 'Minimum Deposit: '; }
+  td:nth-of-type(4):before { content: 'Interest type: '; }
+}
